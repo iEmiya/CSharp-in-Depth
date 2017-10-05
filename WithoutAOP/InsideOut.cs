@@ -3,7 +3,6 @@ using System.Collections;
 using System.Linq;
 using System.Runtime.Caching;
 using System.Text;
-using System.Threading;
 using CSharp_in_Depth.InsideOut;
 using NUnit.Framework;
 
@@ -85,7 +84,7 @@ namespace CSharp_in_Depth
                         }
                         Console.WriteLine();
                         return ++Ticks;
-                    })).Cache(args).Trace()
+                    })).Cache(args)
                     .Then((Func<object[], long, long>)((items, that) =>
                     {
                         Console.WriteLine($"\t{nameof(OutObjectImpl)}:{nameof(Method)}:Range");
@@ -96,7 +95,7 @@ namespace CSharp_in_Depth
                         }
                         Console.WriteLine();
                         return that;
-                    }));
+                    })).Trace();
             }
         }
 
