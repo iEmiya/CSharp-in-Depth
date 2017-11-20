@@ -56,6 +56,7 @@
     <Compile Include="Covariance and contravariance\Covariance_and_Contravariance.cs" />
     <Compile Include="Linq\Linq_ClosureAndForeach.cs" />
     <Compile Include="Linq\Linq_ClosureAndVariable.cs" />
+    <Compile Include="Linq\Linq_CombiningPredicates.cs" />
     <Compile Include="Linq\Linq_LifeAfterYield.cs" />
     <Compile Include="Lock-free\MagicJIT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
