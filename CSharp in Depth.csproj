@@ -61,6 +61,7 @@
     <Compile Include="Lock-free\MagicJIT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection\PropertyInfoVsExpression.cs" />
+    <Compile Include="Tail call\TaiCall.cs" />
     <Compile Include="Utils\PerfCounter.cs" />
     <Compile Include="WithoutAOP\InsideOut.cs" />
     <Compile Include="Yield\Yield_Sugar.cs" />
